@@ -1,0 +1,27 @@
+com.coforge.lamdemos
+  BonusCalculator{
+    double calculateBonus(int amount);
+ }
+ Sample{
+ 
+   main
+     manager amount*5
+     developer amount *3
+     admin amount *2
+}
+ 
+class EmpDetails{
+   void showBonus(String name,String desg, BonusCalculator c,double amount){
+    syso("welcome "+name);
+    syso("Bonus for you is "+ c.calcBonus(amount)));
+   }
+}
+ 
+EmpMain{
+ 
+ main
+ 
+  craete an object of EmpDetails
+  call showBonus
+   e.showBonus("Ram ",(x)->{})
+ 

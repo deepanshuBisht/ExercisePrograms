@@ -1,0 +1,29 @@
+com.coforge.lamdemos
+
+interface StudDetails{
+ 
+   double getAverage(int... marks);
+} 
+ 
+class Student{
+  String name,city;
+  //para
+  void printDetails(StudDetails details,int... marks){
+    // print name, city - syso(name)
+    // call getAverage  deatisl.getAverage();  
+ 
+}
+class StudMain{
+ 
+main
+  //create student1 withpara
+  // call printDetails method
+ 
+// calc for 3 students
+name
+city
+3 - m1,m2,m3
+ 
+}
+ 
+}
